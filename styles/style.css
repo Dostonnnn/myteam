@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Livvic";
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #fff;
+}
+
+.box {
+  width: 1200px;
+  margin: auto;
+  background-color: #014e56;
+}
+
+nav,
+.intro {
+  padding: 0 150px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+.nav-link {
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.nav-item {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #f67e7e;
+}
+
+.nav-btn,
+.nav-btn2 {
+  width: 150px;
+  height: 40px;
+  background: none;
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  font-size: 17px;
+  transition: all 0.3s linear;
+}
+
+.nav-btn:hover {
+  background-color: #f67e7e;
+  color: #014e56;
+  border: 2px solid #f67e7e;
+}
+
+.intro {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+
+.intro-left {
+  width: 500px;
+}
+
+.intro-right {
+  width: 400px;
+}
+
+.intro-right-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.intro-left-title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.highlight {
+  color: #f67e7e;
+}
+
+.intro-img1 {
+  width: 70px;
+  position: absolute;
+  top: 130px;
+  left: 0;
+}
+
+.intro-img2 {
+  position: absolute;
+  bottom: 0;
+  right: 150px;
+}
+
+.build {
+  background-color: #012f34;
+  padding: 100px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.build-left {
+  width: 350px;
+}
+
+.line1 {
+  width: 50px;
+  height: 3px;
+  background-color: #f67e7e;
+  margin-bottom: 50px;
+}
+
+.build-left-text {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+}
+
+.build-right {
+  width: 450px;
+}
+
+.build-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 23px;
+  margin-bottom: 32px;
+}
+
+.build-box-title {
+  color: #f67e7e;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.build-box-text {
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+}
+.build-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 200px;
+  width: 80px;
+}
+.deliver {
+  padding: 100px 150px;
+}
+.highlight2 {
+  color: #79c8c7;
+}
+.deliver {
+  padding: 100px 150px;
+  text-align: center;
+  position: relative;
+}
+.deliver-title {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.deliver-commits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.commit {
+  width: 260px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.commit-text {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.commit-name {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79c8c7;
+}
+.commit-job {
+  margin-top: -20px;
+  font-family: "Livvic";
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.commit-img {
+  width: 70px;
+  height: 70px;
+}
+.deliver-back-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.ready {
+  padding: 100px 150px;
+  background-color: #f67e7e;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ready-title {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012f34;
+}
+.nav-btn2:hover {
+  background-color: #012f34;
+  border: none;
+  color: #f67e7e;
+}
+.ready-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 150px;
+  background-color: #012f34;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100px;
+}
+.footer-add {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.footer-social {
+  display: flex;
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+.social {
+  width: 30px;
+  height: 30px;
+  transition: all 0.3s linear;
+}
