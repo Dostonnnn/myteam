@@ -1,0 +1,23 @@
+.container6 {
+    background: $dark-green;
+    position: relative;
+    &-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+.clients {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 150px 0 100px 0;
+    &-title{
+        @include title (50px, $white);
+    }
+    &-comps {
+        @extend %flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+}

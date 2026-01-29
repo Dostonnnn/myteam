@@ -1,0 +1,30 @@
+.intro2 {
+  width: 1200px;
+  margin: auto;
+  @extend %flex;
+  justify-content: space-between;
+  height: 400px;
+  &-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &-left {
+    width: 400px;
+    &-title {
+      @include title(80px, $white);
+    }
+  }
+  &-right {
+    width: 600px;
+    &-line {
+      width: 50px;
+      height: 3px;
+      background: $light-coral;
+      margin-bottom: 50px;
+    }
+    &-text {
+        @include text(16px, $white);
+    }
+  }
+}

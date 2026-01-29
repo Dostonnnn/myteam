@@ -11,7 +11,7 @@
   color: #ffffff;
 }
 
-.footer-right, .footer-left-list, .footer, .ready, .deliver-humans, .build-info-box, .build, .intro, .navbar-list, .navbar-left, .navbar {
+.meet-directors-director-icons, .meet-directors, .intro2, .clients-comps, .footer-right, .footer-left-list, .footer, .ready, .deliver-humans, .build-info-box, .build, .intro, .navbar-list, .navbar-left, .navbar {
   display: flex;
   align-items: center;
 }
@@ -351,5 +351,170 @@ ul {
   color: #f67e7e;
 }
 .footer-right-icon:active {
+  color: #79c8c7;
+}
+
+.container6 {
+  background: #002529;
+  position: relative;
+}
+.container6-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.clients {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 150px 0 100px 0;
+}
+.clients-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+}
+.clients-comps {
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.intro2 {
+  width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  height: 400px;
+}
+.intro2-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.intro2-left {
+  width: 400px;
+}
+.intro2-left-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  color: #ffffff;
+}
+.intro2-right {
+  width: 600px;
+}
+.intro2-right-line {
+  width: 50px;
+  height: 3px;
+  background: #f67e7e;
+  margin-bottom: 50px;
+}
+.intro2-right-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.container5 {
+  background: #004047;
+  position: relative;
+}
+.container5-img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container5-img2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.meet {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0px;
+}
+.meet-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+.meet-directors {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.meet-directors-director {
+  border-radius: 10px;
+  position: relative;
+  width: 301px;
+  height: 250px;
+  margin-top: 100px;
+  text-align: center;
+  background: #002529;
+  padding: 30px;
+}
+.meet-directors-director-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #79c8c7;
+  margin: 10px 0px;
+}
+.meet-directors-director-job {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+.meet-directors-director-circle {
+  position: absolute;
+  bottom: -25px;
+  left: 125px;
+  width: 50px;
+  height: 50px;
+  background: #f67e7e;
+  border: none;
+  border-radius: 50%;
+  transition: all 0.5s linear;
+}
+.meet-directors-director-circle:hover {
+  transform: rotate(135deg);
+  background: #79c8c7;
+}
+.meet-directors-director-circle-line1 {
+  width: 15px;
+  height: 3px;
+  background: #002529;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.meet-directors-director-circle-line2 {
+  width: 3px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #002529;
+}
+.meet-directors-director-icons {
+  width: 80px;
+  margin: 20px auto;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.meet-directors-director-icons-icon {
+  height: 30px;
+  width: 30px;
+  transition: all 0.3s linear;
+}
+.meet-directors-director-icons-icon:hover {
   color: #79c8c7;
 }/*# sourceMappingURL=style.css.map */
