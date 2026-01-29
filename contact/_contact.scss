@@ -1,0 +1,81 @@
+.container7 {
+  background: $mid-green;
+  position: relative;
+  &-img5 {
+    position: absolute;
+    left: 0;
+    top: 100px;
+  }
+  &-img6 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+.contact {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0;
+  @extend %flex;
+  justify-content: space-between;
+  &-left {
+    height: 500px;
+    @extend %flex-column;
+    justify-content: space-between;
+    &-title {
+      @include title(80px, $white);
+    }
+    &-subtitle {
+      @include title(30px, $light-coral);
+    }
+    &-infos {
+      height: 300px;
+      @extend %flex-column;
+      justify-content: space-between;
+      &-info {
+        @extend %flex;
+        gap: 50px;
+        &-img {
+          width: 60px;
+          height: 60px;
+        }
+        &-text {
+          @include text(16px, $white);
+        }
+      }
+    }
+  }
+  &-right {
+    @extend %flex-column;
+    height: 500px;
+    width: 400px;
+    &-name {
+      height: 40px;
+      background: transparent;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid $white;
+      color: $white;
+      outline: none;
+      opacity: 0.8;
+      &:nth-child(5){
+        height: 100px;
+      }
+    }
+    &-btn {
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        transition: all 0.3s linear;
+        font-weight: 600;
+        &:hover{
+            background: $light-coral;
+        }
+        &:active {
+            background: $rap-blue;
+        }
+    }
+  }
+}

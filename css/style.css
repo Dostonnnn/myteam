@@ -11,12 +11,12 @@
   color: #ffffff;
 }
 
-.meet-directors-director-icons, .meet-directors, .intro2, .clients-comps, .footer-right, .footer-left-list, .footer, .ready, .deliver-humans, .build-info-box, .build, .intro, .navbar-list, .navbar-left, .navbar {
+.contact-left-infos-info, .contact, .meet-directors-director-icons, .meet-directors, .intro2, .clients-comps, .footer-right, .footer-left-list, .footer, .ready, .deliver-humans, .build-info-box, .build, .intro, .navbar-list, .navbar-left, .navbar {
   display: flex;
   align-items: center;
 }
 
-.footer-middle, .deliver-humans-human, .build-info-box-textarea, .build-info, .intro-right {
+.contact-right, .contact-left-infos, .contact-left, .footer-middle, .deliver-humans-human, .build-info-box-textarea, .build-info, .intro-right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -517,4 +517,91 @@ ul {
 }
 .meet-directors-director-icons-icon:hover {
   color: #79c8c7;
+}
+
+.container7 {
+  background: #014e56;
+  position: relative;
+}
+.container7-img5 {
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+.container7-img6 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.contact {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0;
+  justify-content: space-between;
+}
+.contact-left {
+  height: 500px;
+  justify-content: space-between;
+}
+.contact-left-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  color: #ffffff;
+}
+.contact-left-subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #f67e7e;
+}
+.contact-left-infos {
+  height: 300px;
+  justify-content: space-between;
+}
+.contact-left-infos-info {
+  gap: 50px;
+}
+.contact-left-infos-info-img {
+  width: 60px;
+  height: 60px;
+}
+.contact-left-infos-info-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+.contact-right {
+  height: 500px;
+  width: 400px;
+}
+.contact-right-name {
+  height: 40px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+  outline: none;
+  opacity: 0.8;
+}
+.contact-right-name:nth-child(5) {
+  height: 100px;
+}
+.contact-right-btn {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.3s linear;
+  font-weight: 600;
+}
+.contact-right-btn:hover {
+  background: #f67e7e;
+}
+.contact-right-btn:active {
+  background: #79c8c7;
 }/*# sourceMappingURL=style.css.map */
