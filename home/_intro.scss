@@ -1,0 +1,30 @@
+.intro {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0px 150px 0px;
+  @extend %flex;
+  justify-content: space-between;
+  &-left {
+    &-title {
+      width: 450px;
+      height: 200px;
+      @include title(80px, $white);
+      &-high {
+        color: $light-coral;
+      }
+    }
+  }
+  &-right {
+    height: 200px;
+    @extend %flex-column;
+    &-line {
+      height: 3px;
+      width: 50px;
+      background: $light-coral;
+    }
+    &-text {
+      @include text(20px, $white);
+      width: 450px;
+    }
+  }
+}

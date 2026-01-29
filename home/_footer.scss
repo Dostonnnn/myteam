@@ -1,0 +1,56 @@
+.container4 {
+  background: $dark-green;
+  padding: 50px 0;
+}
+.footer {
+  margin: auto;
+  width: 1200px;
+  @extend %flex;
+  justify-content: space-between;
+  &-left {
+    &-logo {
+      @extend %logo;
+    }
+    &-list {
+      @extend %flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+    &-link {
+      @extend %navbar-link;
+      transition: all 0.3s linear;
+      &:hover {
+        color: $light-coral;
+      }
+      &:active {
+        color: $rap-blue;
+      }
+    }
+  }
+  &-middle {
+    @extend %flex-column;
+    justify-content: space-between;
+    &-text {
+      @include text(16px, $white);
+      opacity: 0.5;
+    }
+  }
+  &-right {
+    @extend %flex;
+    width: 150px;
+    justify-content: space-between;
+    &-icon {
+      color: $white;
+      background: transparent;
+      width: 40px;
+      height: 40px;
+      transition: all 0.3s linear;
+      &:hover {
+        color: $light-coral;
+      }
+      &:active {
+        color: $rap-blue;
+      }
+    }
+  }
+}

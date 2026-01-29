@@ -1,0 +1,54 @@
+.container2 {
+  background: $mid-green;
+  position: relative;
+  &-img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &-img2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+.deliver {
+  margin: auto;
+  width: 1200px;
+  padding: 100px 0;
+  &-title {
+    @include title(50px, $white);
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    &-high {
+      color: $rap-blue;
+    }
+  }
+  &-humans {
+    margin-top: 100px;
+    @extend %flex;
+    justify-content: space-between;
+    &-human {
+      width: 300px;
+      text-align: center;
+      @extend %flex-column;
+      gap: 20px;
+      &-title {
+        @include text(16px, $white);
+      }
+      &-name {
+        @include title(20px, $light-coral);
+      }
+      &-job {
+        @include text(16px, $white);
+        font-weight: 300;
+      }
+      &-img {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+      }
+    }
+  }
+}

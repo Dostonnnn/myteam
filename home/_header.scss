@@ -1,0 +1,13 @@
+.header {
+  background: $mid-green;
+  position: relative;
+  &-img1 {
+    position: absolute;
+    top: 220px;
+  }
+  &-img2 {
+    position: absolute;
+    right: 170px;
+    bottom: 0;
+  }
+}

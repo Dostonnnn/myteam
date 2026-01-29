@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  background: $dark-green;
+  position: relative;
+  &-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+.build {
+  width: 1200px;
+  margin: auto;
+  @extend %flex;
+  justify-content: space-between;
+  padding: 100px 0;
+  &-left {
+    width: 400px;
+    height: 500px;
+    &-line {
+      height: 3px;
+      width: 50px;
+      background: $light-coral;
+      margin-bottom: 50px;
+    }
+    &-title {
+      @include title(45px, $white);
+    }
+  }
+  &-info {
+    @extend %flex-column;
+    height: 400px;
+    width: 500px;
+    &-box {
+      @extend %flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      &-textarea {
+        width: 350px;
+        @extend %flex-column;
+        justify-content: space-between;
+        height: 110px;
+      }
+      &-title {
+        @include title(22px, $light-coral);
+      }
+      &-text {
+        @include text(16px, $white);
+      }
+      &-img {
+        height: 80px;
+        width: 80px;
+      }
+    }
+  }
+}

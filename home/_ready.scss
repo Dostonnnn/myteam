@@ -1,0 +1,32 @@
+.container3 {
+  background: $light-coral;
+  position: relative;
+  &-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+.ready {
+  padding: 50px 100px;
+  margin: auto;
+  width: 1200px;
+  @extend %flex;
+  justify-content: space-between;
+  &-title {
+    @include title (50px, $dark-green)
+  }
+  &-btn {
+    @include button ($dark-green);
+    transition: all 0.3s linear;
+    &:hover {
+      background: $dark-green;
+      border: none;
+      color: $white;
+    }
+    &:active {
+      background: $policy-blue;
+      color: $white;
+    }
+  }
+}
